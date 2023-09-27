@@ -14,13 +14,13 @@ public class Opgave2 {
 
     public static double udregnSum(int[] a) {
         int sum = 0;
-        int count = a.length; // Count the number of elements
+        int count = a.length;
 
         for (int i = 0; i < 5; i++) {
             if (a[i] != 0) {
                 sum += a[i];
             } else {
-                break; // Exit the loop when you encounter the first zero
+                break;
             }
         }
 
