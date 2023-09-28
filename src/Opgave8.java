@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Opgave6 {
+public class Opgave8 {
     public static String[] overFem(String[] a) {
         int count = a.length;
         int validCount = 0;
@@ -18,7 +18,7 @@ public class Opgave6 {
 
 
         for (int i = 0; i < count; i++) {
-            if (a[i].length() < 5) {
+            if (a[i].length() > 5) {
                 validStrings[index++] = a[i];
             }
         }
@@ -31,7 +31,7 @@ public class Opgave6 {
         array[1] = "Lauge";
         array[2] = "Bulow";
         array[3] = "Diaco";
-        array[4] = "WonderWeasel";
+
 
         String[] result = overFem(array);
         for (String s : result) {
