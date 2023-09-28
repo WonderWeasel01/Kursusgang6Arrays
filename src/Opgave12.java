@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Opgave10 {
+public class Opgave12 {
 
-    public static int linearSearch(int[] list, int key) {
+    public static int binarySearch(int[] list, int key) {
         for (int i = 0; i < list.length; i++) {
             if (key == list[i])
                 return i;
@@ -16,6 +16,6 @@ public class Opgave10 {
         for (int i = 0; i < 5; i++) {
             list[i] = in.nextInt();
         }
-        System.out.println(linearSearch(list, 55));
+        System.out.println(binarySearch(list, 2));
     }
 }

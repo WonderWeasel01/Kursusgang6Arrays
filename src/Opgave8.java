@@ -26,12 +26,15 @@ public class Opgave8 {
         return validStrings;
     }
     public static void main(String[] args) {
-        String[] array = new String[5];
+        String[] array = new String[8];
         array[0] = "jusin";
         array[1] = "Lauge";
         array[2] = "Bulow";
         array[3] = "Diaco";
-
+        array[4] = "WonderWeasel";
+        array[5] = "WonderWeasel";
+        array[6] = "WonderWeasel";
+        array[7] = "WonderWeasel";
 
         String[] result = overFem(array);
         for (String s : result) {
